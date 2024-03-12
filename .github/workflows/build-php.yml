@@ -1,0 +1,11 @@
+name: Build Image with PHP
+
+on:
+  push:
+
+jobs:
+  build:
+    uses: vholer/test-ghw-shared/.github/workflows/build.yml
+    secrets: inherit
+    with:
+      image: php
