@@ -9,3 +9,5 @@ jobs:
     secrets: inherit
     with:
       image: php
+    secrets:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
