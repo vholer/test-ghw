@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     uses: vholer/test-ghw-shared/.github/workflows/build.yml@main
-    secrets: inherit
+    #secrets: inherit
     with:
       image: php
     secrets:
